@@ -5,8 +5,8 @@ require 'watir'
 def scrape_for(company_name)
 
   # Log into Dealroom.co
-  signin_email = 'sandrine.ayral@gmail.com'
-  signin_password = 'agnes2012'
+  signin_email = 'xxxxx'
+  signin_password = 'xxxxx'
 
   browser = Watir::Browser.new
   browser.goto('https://app.dealroom.co/login')
